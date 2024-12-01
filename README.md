@@ -62,31 +62,33 @@ streamlit run demo_wml_api_with_streamlit.py
 ```bash
 python demo_wml_api.py
 ---------------------------------------------------------------------------
-Pertanyaan/Pesan: Tulislah sebuah paragraf tentang ibu kota Prancis.
-Jawaban: Terletak di sebelah timur Prancis, Paris adalah ibu kota Prancis. Ini juga merupakan kota dengan populasi terbanyak di Prancis dengan jumlah penduduk 2,2 juta orang. Ini adalah pusat parlemen Prancis, Majelis Nasional. Kota ini terletak di jantung Prancis dan dikelilingi oleh wilayah Île-de-France.
+Question/request: Write a paragraph about the capital of France.
+Answer: Located in the east of France, Paris is the capital of France. It is also the most populated city of France with a population of 2.2 million people. It is the seat of the French parliament, the National Assembly. The city is located in the heart of France and is surrounded by the Île-de-France region.
 ---------------------------------------------------------------------------
-C:\Users\ACAL\anaconda3\Lib\site-packages\ibm_watson_machine_learning\foundation_models\utils\utils.py:273: LifecycleWarning: Model 'meta-llama/llama-2-13b-chat' dalam status kadaluarsa dari 26 Agustus 2024 sampai tidak ditentukan. ID model alternatif: Tidak ada. Rincian lebih lanjut: https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp
+C:\Users\LENOVO\anaconda3\Lib\site-packages\ibm_watson_machine_learning\foundation_models\utils\utils.py:273: LifecycleWarning: Model 'meta-llama/llama-2-13b-chat' is in deprecated state from 2024-08-26 until None. IDs of alternative models: None. Further details: https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx&audience=wdp
 warnings.warn(default_warning_template.format(
 ---------------------------------------------------------------------------
-Prompt:
- Dari keluhan pelanggan berikut, ekstrak 3 faktor yang menyebabkan pelanggan tidak puas.
- Tulis masing-masing faktor pada baris baru.
+Prompt: 
+ From the following customer complaint, extract 3 factors that caused the customer to be unhappy.
+ Put each factor on a new line.
 
- Keluhan pelanggan:
-         Saya baru saja mencoba memesan penerbangan di situs web Anda yang sangat lambat. Semua
-         waktu dan harga membingungkan. Saya suka bisa membandingkan
-         fasilitas di kelas ekonomi dengan kelas bisnis berdampingan. Tetapi saya
-         tidak pernah bisa memesan tempat duduk karena saya tidak mengerti peta tempat duduk.
-         Lain kali, saya akan menggunakan agen perjalanan!
+ Customer complaint:
+         I just tried to book a flight on your incredibly slow website.  All
+         the times and prices were confusing.  I liked being able to compare
+         the amenities in economy with business class side by side.  But I
+         never got to reserve a seat because I didn't understand the seat map.
+         Next time, I'll use a travel agent!
 
-Daftar bernomor dari semua faktor yang menyebabkan pelanggan tidak puas:
 
-Daftar keluhan:
- 1. Situs web lambat
- 2. Waktu dan harga membingungkan
- 3. Ketidakpahaman terhadap peta tempat duduk
+ Numbered list of all the factors that caused the customer to be unhappy:
+
+
+List of complaints: 1. Slow website
+ 2. Confusing times and prices
+ 3. Lack of understanding of the seat map
 ---------------------------------------------------------------------------
---------------------------Pemanggilan dengan REST-------------------------------------------
-Pertanyaan/Pesan: Tulislah sebuah paragraf tentang ibu kota Prancis.
-Jawaban: Paris adalah ibu kota Prancis dan pusat pemerintahan Republik Prancis. Kota ini terletak di jantung wilayah Ile-de-France, dan penduduknya disebut Parisien. Nama resmi kota ini adalah "Paris" (dalam bahasa Prancis) atau "Roubaix" (dalam bahasa Occitan).
+--------------------------Invocation with REST-------------------------------------------
+Question/request: Write a paragraph about the capital of France.
+Answer: Paris is the capital of France and the seat of government of the French Republic. The city is located in the heart of the Ile-de-France region, and its inhabitants are called Parisiens. The official name of the city is "Paris" (in French) or "Roubaix" (in Occitan).
 ---------------------------------------------------------------------------
+```
