@@ -1,8 +1,12 @@
 # Integrasi LLM dengan Aplikasi
-<p align="center">
-  <img src="https://img.shields.io/badge/python-%20-blue.svg?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Anaconda-%20-blue.svg?logo=anaconda&logoColor=white" alt="Anaconda">
-</p>
+<div align="center">
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+<img src="https://img.shields.io/badge/Anaconda-3670A0?style=for-the-badge&logo=anaconda&logoColor=white">
+<img src="https://img.shields.io/badge/IBM%20Cloud-005C8E?style=for-the-badge&logo=ibmcloud&logoColor=white">
+<img src="https://img.shields.io/badge/Streamlit-FF4B5C?style=for-the-badge&logo=streamlit&logoColor=white">
+<img src="https://img.shields.io/badge/License-MIT-yellowgreen?style=for-the-badge&logo=opensource&logoColor=white">
+
+</div>
 
 Proyek ini menunjukkan cara mengintegrasikan Model Bahasa Besar (LLMs) ke dalam aplikasi menggunakan API Watson Machine Learning dari IBM Cloud. Proyek ini menggunakan Python dan Streamlit untuk membuat aplikasi sederhana yang berkomunikasi dengan IBM Watson ML API untuk melakukan berbagai tugas bahasa seperti pembuatan teks, penjawaban pertanyaan, dan ekstraksi data.
 
